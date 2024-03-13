@@ -108,7 +108,7 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                     </li>
                   </ul>
                 </li>
-                <li className="mil-has-children">
+                {/* <li className="mil-has-children">
                   <Link href="solution-1">Solutions</Link>
                   <ul>
                     <li>
@@ -121,7 +121,7 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                       <Link href="solution-3">Solution 3</Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <Link href="blog">Blog</Link>
                 </li>
