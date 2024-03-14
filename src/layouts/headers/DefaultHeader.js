@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
@@ -7,35 +8,6 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
     <div
       className={`mil-top-position mil-fixed ${extarClass ? extarClass : ""}`}
     >
-      {headerTop && (
-        <div className="mil-additional-panel">
-          <div className="container-fluid">
-            <ul className="mil-ap-list">
-              <li>
-                Phone: <span className="mil-accent">+ 01</span> 800 070 404
-              </li>
-              <li>Info@mydomain.com</li>
-            </ul>
-            <div className="mil-ap-call-to-action">
-              <div className="mil-icon-frame mil-icon-frame-sm">
-                <img
-                  src="img/icons/sm/4.svg"
-                  alt="icon"
-                />
-              </div>
-              <p>Find out how ITSulu Could save you over 2.400 US$ a year.</p>
-            </div>
-            <ul className="mil-ap-list">
-              <li>
-                <a href="#.">Accounta</a>
-              </li>
-              <li>
-                <a href="#.">English</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      )}
       <div
         className={`mil-top-panel ${
           transparent ? "mil-top-panel-transparent mil-animated" : ""
@@ -47,10 +19,13 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
             href="/"
             legacyBehavior
           >
-            <a
-              className="mil-logo"
-              style={{ width: 140 }}
-            ></a>
+           <Image 
+           src={"/img/logo/061ec7a667-removebg-preview.png"}
+           width={400}
+           height={160}
+           />
+
+           
           </Link>
           <div className={`mil-navigation ${toggle ? "mil-active" : ""}`}>
             <nav>
@@ -91,7 +66,7 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                   <Link href="about">Hakkımızda</Link>
                 </li>
                 <li className="mil-has-children">
-                  <Link href="service-1">Hizmetlerimiz</Link>
+                  <Link href={"/"}> Hizmetlerimiz</Link>
                   <ul>
                     <li>
                       <Link href="damper-uretimi">Damper Üretimi</Link>

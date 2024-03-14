@@ -634,9 +634,8 @@ const About = () => {
                 <div className="mil-box-text">
                   <h4 className="mil-mb-30">Üstün Kalite Anlayışı</h4>
                   <p className="mil-box-text">
-                    Endüstrinin öncüsü olarak, yenilikçi klape sistemlerinin ve
-                    mühendislik çözümlerinin geliştiricisiyiz. Güvenilirlik ve
-                    sürdürülebilirliği her daim ön planda tutuyoruz.
+                    Fortek, ISO 9001 ve 3834 standartlarına sıkı sıkıya
+                    bağlıdır.
                   </p>
                 </div>
               </div>
@@ -650,12 +649,10 @@ const About = () => {
                   />
                 </div>
                 <div className="mil-box-text">
-                  <h4 className="mil-mb-30">Derinlemesine Araştırma</h4>
+                  <h4 className="mil-mb-30">Sertifikalı Üretim Süreci</h4>
                   <p className="mil-box-text">
-                    Projelerimiz ve ürünlerimiz üzerindeki titiz çalışmalarımız,
-                    detaylara verdiğimiz önemle sektördeki farkımızı ortaya
-                    koyuyor. Mükemmelliğe olan tutkumuz, her yenilikte kendini
-                    gösteriyor
+                    Her üretimimiz, kaliteyi garanti eden ISO yöntemleriyle
+                    yönetilir.
                   </p>
                 </div>
               </div>
@@ -669,11 +666,9 @@ const About = () => {
                   />
                 </div>
                 <div className="mil-box-text">
-                  <h4 className="mil-mb-30">Değer Yaratma</h4>
+                  <h4 className="mil-mb-30">Kalite İyileştirme Sözü</h4>
                   <p className="mil-box-text">
-                    Müşterilerimizin ve çalışanlarımızın gelişimi bizim için her
-                    şeyden önemli. Onlara verdiğimiz değer ve destekle, tüm
-                    paydaşlarımız için somut değerler yaratmayı hedefliyoruz.
+                    Sürekli iyileştirme, Fortek kalite yönetiminin temelidir.
                   </p>
                 </div>
               </div>
@@ -687,47 +682,9 @@ const About = () => {
                   />
                 </div>
                 <div className="mil-box-text">
-                  <h4 className="mil-mb-30">Sürdürülebilir İnanç</h4>
+                  <h4 className="mil-mb-30">Yenilikçi Kalite Taahhüdü</h4>
                   <p className="mil-box-text">
-                    Uzmanlığımız ve sektör bilgimizle sadece bugün için değil,
-                    yarınlar için de değer yaratma gücümüze inanıyoruz. Her
-                    yenilik, bu inancın bir göstergesidir.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-4">
-              <div className="mil-icon-box-2 mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                  <img
-                    src="img/icons/md/10.svg"
-                    alt="icon"
-                  />
-                </div>
-                <div className="mil-box-text">
-                  <h4 className="mil-mb-30">Sorumluluk Almak</h4>
-                  <p className="mil-box-text">
-                    Her zorlukta öncü olup, çözüm odaklı yaklaşımımızla
-                    sorumluluk alırız. Fortek Endüstriyel, zorlukların
-                    üstesinden gelme konusunda proaktif bir yaklaşım sergiler.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-4">
-              <div className="mil-icon-box-2 mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
-                  <img
-                    src="img/icons/md/10.svg"
-                    alt="icon"
-                  />
-                </div>
-                <div className="mil-box-text">
-                  <h4 className="mil-mb-30">Kolektif Başarı</h4>
-                  <p className="mil-box-text">
-                    Bireysel başarılardan ziyade takım ruhuyla hareket ediyoruz.
-                    'Biz' demek, Fortek Endüstriyel'de birlikte daha güçlü ve
-                    başarılı olduğumuz anlamına gelir.
+                    Fortek, yenilikçilikle üstün kaliteyi birleştirir.
                   </p>
                 </div>
               </div>
