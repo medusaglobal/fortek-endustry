@@ -6,7 +6,8 @@ const Footer = ({ footer }) => {
     case 1:
       return <DefaultFooter />;
     case 2:
-      return <Footer2 />;
+      // return <Footer2 />;
+      return <DefaultFooter />;
     default:
       return <DefaultFooter />;
   }

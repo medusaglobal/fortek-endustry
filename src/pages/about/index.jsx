@@ -696,7 +696,7 @@ const About = () => {
 
       {/* contact */}
       {/* contact */}
-      <ContactForm />
+      {/* <ContactForm /> */}
     </Layouts>
   );
 };

@@ -25,9 +25,12 @@ const Solution1MilBoxSlider = () => {
                 >
                   <h3 className="mil-light mil-mb-120">
                     Fortek Endüstriyel{" "}
-                    <span className="mil-accent">&nbsp; Damper Çözümleri</span>
+                    <br />
+                    <span className="mil-accent">
+                       Hava Sızdırmazlık Damperleri
+                    </span>
                   </h3>
-                  <div className="mil-hori-box mil-mb-30">
+                  {/* <div className="mil-hori-box mil-mb-30">
                     <div className="mil-mr-15">
                       <div className="mil-icon-frame mil-light mil-icon-frame-md">
                         <img
@@ -39,12 +42,11 @@ const Solution1MilBoxSlider = () => {
                     <h5 className="mil-light">
                       İki Yönlü Damperler için Özel Üretim
                     </h5>
-                  </div>
+                  </div> */}
                   <p className="mil-light-soft">
-                    Fortek, karbon çelikten paslanmaz çelik çeşitliliğine, her
-                    proje için ideal iki yönlü damperleri sunar. Özelleştirilmiş
-                    uygulamalarınız için, en yüksek kalite standartlarındaki
-                    malzemelerle, dayanıklılık ve verimlilik sağlarız.
+                    Fortek damperler, yüksek sıcaklık ve zorlu koşullarda sıfır
+                    sızdırmazlık sunar. Her uygulamaya özel malzeme
+                    seçenekleriyle dayanıklılık ve performans sağlıyoruz.
                   </p>
                 </div>
               </SwiperSlide>

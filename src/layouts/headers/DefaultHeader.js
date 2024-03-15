@@ -83,20 +83,26 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                     </li>
                   </ul>
                 </li>
-                {/* <li className="mil-has-children">
-                  <Link href="solution-1">Solutions</Link>
+                <li className="mil-has-children">
+                  <Link href="#">Ürünlerimiz</Link>
                   <ul>
                     <li>
-                      <Link href="solution-1">Solution 1</Link>
+                      <Link href="/iki-yollu-damper">2 Yollu Damper</Link>
                     </li>
                     <li>
-                      <Link href="solution-2">Solution 2</Link>
+                      <Link href="/uc-yollu-damper">3 Yollu Damper</Link>
                     </li>
                     <li>
-                      <Link href="solution-3">Solution 3</Link>
+                      <Link href="/giyotin-damper">Giyotin Damper</Link>
+                    </li>
+                    <li>
+                      <Link href="/cok-kanatli-damper">Çok Kanatlı Damper</Link>
+                    </li>
+                    <li>
+                      <Link href="/sizdirmazlik-hava-damper">Sızdırmazlık Hava Damper</Link>
                     </li>
                   </ul>
-                </li> */}
+                </li>
                 <li>
                   <Link href="blog">Blog</Link>
                 </li>

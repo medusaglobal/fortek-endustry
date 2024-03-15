@@ -7,7 +7,7 @@ const DefaultFooter = () => {
         className="mil-footer-bg"
       />
       <div className="container">
-        <div className="mil-footer-content mil-p-120-90">
+        {/* <div className="mil-footer-content mil-p-120-90">
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-4 mil-mb-30">
               <img
@@ -21,7 +21,7 @@ const DefaultFooter = () => {
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.
               </p>
-              {/* <a href="#." className="mil-app-btn mil-mb-5">
+              <a href="#." className="mil-app-btn mil-mb-5">
                 <i className="fab fa-google-play" />
                 <div className="mil-app-text">
                   <span className="mil-accent mil-text-sm">
@@ -38,7 +38,7 @@ const DefaultFooter = () => {
                   </span>
                   <div className="mil-h6">App Store</div>
                 </div>
-              </a> */}
+              </a>
             </div>
             <div className="col-xl-7 mil-mt-60-adapt">
               <div className="row">
@@ -52,7 +52,7 @@ const DefaultFooter = () => {
                     <br /> adipiscing elit, sed diam nonummy.
                   </p>
                 </div>
-                {/* <div className="col-lg-5 mil-mb-30">
+                <div className="col-lg-5 mil-mb-30">
                   <form>
                     <input
                       className="mil-rounded-input mil-text-center mil-mb-5"
@@ -63,12 +63,12 @@ const DefaultFooter = () => {
                       <span>Subscribe Now</span>
                     </button>
                   </form>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="mil-divider mil-light" />
+        </div> */}
+        {/* <div className="mil-divider mil-light" /> */}
         <div className="mil-footer-links">
           <ul className="mil-social mil-light">
             <li className="mil-adapt-links">
@@ -107,8 +107,8 @@ const DefaultFooter = () => {
       </div>
       <div className="mil-footer-bottom">
         <div className="container">
-          <p className="mil-text-sm mil-light">© ITSulu 2023.</p>
-          <p className="mil-text-sm mil-light">All Rights Reserved.</p>
+          <p className="mil-text-sm mil-light">© Medusa Global 2024.</p>
+          <p className="mil-text-sm mil-light">Bütün Hakları Saklıdır.</p>
         </div>
       </div>
     </footer>
