@@ -24,7 +24,7 @@ const Solution1 = () => {
     <Layouts footer={2}>
       <PageBanner
         pageName={"Giyotin Damperler"}
-        pageTitle={"Giyotin Damperler"}
+        pageTitle={"Giyotİn Damperler"}
       />
 
       {/* call to action */}

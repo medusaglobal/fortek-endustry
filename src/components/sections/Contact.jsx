@@ -52,7 +52,7 @@ const ContactSection = () => {
                 </label>
                 <textarea placeholder="Your Message" defaultValue={""} />
               </div>
-              <p className="mil-text-sm mil-light-soft mil-mb-15">
+              {/* <p className="mil-text-sm mil-light-soft mil-mb-15">
                 Kişisel verilerimin işlenmesini ve iletişim için kullanılmasını kabul ediyorum.
               </p>
               <div className="mil-checbox-frame mil-mb-60">
@@ -68,7 +68,7 @@ const ContactSection = () => {
                     events and services
                   </a>
                 </label>
-              </div>
+              </div> */}
             </div>
             <div className="col-12">
               <button className="mil-button mil-accent-bg mil-fw">

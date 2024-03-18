@@ -14,7 +14,8 @@ const Home1TestimonialSlider = () => {
               {Content.subtitle}
             </span>
             <h2>
-              {Content.title.first} <span className="mil-accent">{Content.title.second}</span> {Content.title.third}
+              {Content.title.first} <span className="mil-accent">{Content.title.second}</span> 
+              {/* {Content.title.third} */}
             </h2>
           </div>
           <div className="col-md-6 col-xl-6">
@@ -22,10 +23,10 @@ const Home1TestimonialSlider = () => {
               <div className="mil-slider-nav">
                 <div className="mil-slider-btn-prev mil-revi-prev">
                   <i className="fas fa-arrow-left" />
-                  <span className="mil-h6">Prev</span>
+                  <span className="mil-h6">Önceki</span>
                 </div>
                 <div className="mil-slider-btn-next mil-revi-next">
-                  <span className="mil-h6">Next</span>
+                  <span className="mil-h6">Sonraki</span>
                   <i className="fas fa-arrow-right" />
                 </div>
               </div>
@@ -63,7 +64,7 @@ const Home1TestimonialSlider = () => {
                 {item.text}
               </p>
               <div className="mil-author">
-                <img src={item.image} alt={item.name} />
+                {/* <img src={item.image} alt={item.name} /> */}
                 <div className="mil-name">
                   <h6 className="mil-mb-5">{item.name}</h6>
                   <span className="mil-text-sm">{item.role}</span>

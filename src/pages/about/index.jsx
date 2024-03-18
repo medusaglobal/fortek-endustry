@@ -9,7 +9,7 @@ const About = () => {
     <Layouts>
       <PageBanner
         pageName={"Hakkımızda"}
-        pageTitle={"Biz Kimiz?"}
+        pageTitle={"Bİz Kİmİz?"}
       />
       {/* call to action */}
       <section className="mil-p-120-60">
