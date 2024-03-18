@@ -92,7 +92,7 @@ const DefaultFooter = () => {
               <a href="#.">YT</a>
             </li>
           </ul>
-          <ul className="mil-additional-links mil-light">
+          {/* <ul className="mil-additional-links mil-light">
             <li>
               <a href="#.">Terms &amp; Condition</a>
             </li>
@@ -102,7 +102,7 @@ const DefaultFooter = () => {
             <li>
               <a href="#.">Sitemap</a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
       <div className="mil-footer-bottom">
