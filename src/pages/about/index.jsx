@@ -156,10 +156,10 @@ const About = () => {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-5">
-              <div className="mil-h1">
+              {/* <div className="mil-h1">
                 20<span className="mil-accent">+</span>
               </div>
-              <h6 className="mil-mb-60">Yıllık Deneyim</h6>
+              <h6 className="mil-mb-60">Yıllık Deneyim</h6> */}
               <h2 className="mil-mb-60">
                 Endüstriyel Başarınız İçin Kapsamlı Hizmetler
               </h2>
@@ -359,7 +359,7 @@ const About = () => {
               </div>
               <div className="col-xl-6">
                 <p className="mil-box-text mil-mb-30">
-                  Her bir damper sistemimiz, TS EN ISO 9001:2008 ve ISO 3834
+                  Her bir damper sistemimiz, ISO 9001:2015 ve TS ENISO 12100:2011
                   standartlarına uygun olarak en yüksek kalite yönetim
                   sistemleriyle üretilir ve test edilir.
                 </p>
@@ -440,16 +440,16 @@ const About = () => {
       </section>
       {/* features end */}
       {/* features */}
-      <section className="mil-deep-bg mil-p-120-60">
+      {/* <section className="mil-deep-bg mil-p-120-60">
         <div
           className="mil-deco"
           style={{ top: 0, right: "25%" }}
         />
-        <div className="container">
+        <div className="container"> */}
           {/* <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
             For Enterprise
           </span> */}
-          <h2 className="mil-mb-120">
+          {/* <h2 className="mil-mb-120">
             Fortek Endüsriyel'in <span className="mil-accent">Temel</span>{" "}
             Değerleri
           </h2>
@@ -565,22 +565,22 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* features end */}
 
       <Divider />
 
       {/* features */}
-      <section className="mil-deep-bg mil-p-120-60">
+      {/* <section className="mil-deep-bg mil-p-120-60">
         <div
           className="mil-deco"
           style={{ top: 0, right: "25%" }}
         />
-        <div className="container">
+        <div className="container"> */}
           {/* <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
             For Enterprise
           </span> */}
-          <h2 className="mil-mb-120">
+          {/* <h2 className="mil-mb-120">
             Fortek Endüstriyel ile{" "}
             <span className="mil-accent">Kalite ve Standartlar</span>{" "}
           </h2>
@@ -653,7 +653,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* features end */}
 
       {/* contact */}
