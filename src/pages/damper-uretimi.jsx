@@ -1,6 +1,8 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import Content from "@/src/data/pages/services/damper-uretimi.json";
+import PartnersSection from "../components/sections/Partners";
+
 const Service1 = () => {
   return (
     <Layouts footer={2}>
@@ -198,30 +200,7 @@ const Service1 = () => {
       </section> */}
       {/* next step end */}
       {/* partners */}
-      <div className="mil-partners mil-partners-spaces">
-        <div className="container">
-          <div className="mil-partners-frame">
-            <a href="#.">
-              <img src="img/partners/1.png" alt="partner" />
-            </a>
-            <a href="#.">
-              <img src="img/partners/2.png" alt="partner" />
-            </a>
-            <a href="#.">
-              <img src="img/partners/3.png" alt="partner" />
-            </a>
-            <a href="#.">
-              <img src="img/partners/4.png" alt="partner" />
-            </a>
-            <a href="#.">
-              <img src="img/partners/5.png" alt="partner" />
-            </a>
-            <a href="#.">
-              <img src="img/partners/6.png" alt="partner" />
-            </a>
-          </div>
-        </div>
-      </div>
+      <PartnersSection />
       {/* partners end */}
       <div className="container">
         <div className="mil-divider" />

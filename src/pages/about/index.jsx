@@ -1,9 +1,12 @@
 import ContactForm from "@/src/components/ContactForm";
 import PageBanner from "@/src/components/PageBanner";
 import Divider from "@/src/components/sections/Divider";
-
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
+import PartnersSection from "../../components/sections/Partners";
+
+
+
 const About = () => {
   return (
     <Layouts>
@@ -261,48 +264,7 @@ const About = () => {
         <div className="mil-divider" />
       </div>
       {/* partners */}
-      <div className="mil-partners mil-p-120-90">
-        <div className="container">
-          <div className="mil-partners-frame">
-            <a href="#.">
-              <img
-                src="img/partners/1.png"
-                alt="partner"
-              />
-            </a>
-            <a href="#.">
-              <img
-                src="img/partners/2.png"
-                alt="partner"
-              />
-            </a>
-            <a href="#.">
-              <img
-                src="img/partners/3.png"
-                alt="partner"
-              />
-            </a>
-            <a href="#.">
-              <img
-                src="img/partners/4.png"
-                alt="partner"
-              />
-            </a>
-            <a href="#.">
-              <img
-                src="img/partners/5.png"
-                alt="partner"
-              />
-            </a>
-            <a href="#.">
-              <img
-                src="img/partners/6.png"
-                alt="partner"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
+      <PartnersSection />
       {/* partners end */}
       {/* about */}
       <section className="mil-deep-bg mil-p-120-60">
