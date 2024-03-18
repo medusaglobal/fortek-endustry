@@ -5,8 +5,6 @@ import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
 import PartnersSection from "../../components/sections/Partners";
 
-
-
 const About = () => {
   return (
     <Layouts>
@@ -359,9 +357,9 @@ const About = () => {
               </div>
               <div className="col-xl-6">
                 <p className="mil-box-text mil-mb-30">
-                  Her bir damper sistemimiz, ISO 9001:2015 ve TS ENISO 12100:2011
-                  standartlarına uygun olarak en yüksek kalite yönetim
-                  sistemleriyle üretilir ve test edilir.
+                  Her bir damper sistemimiz, ISO 9001:2015 ve TS ENISO
+                  12100:2011 CE standartlarına uygun olarak en yüksek kalite
+                  yönetim sistemleriyle üretilir ve test edilir.
                 </p>
               </div>
             </div>
@@ -440,18 +438,17 @@ const About = () => {
       </section>
       {/* features end */}
       {/* features */}
-      {/* <section className="mil-deep-bg mil-p-120-60">
+      <section className="mil-deep-bg mil-p-120-60">
         <div
           className="mil-deco"
           style={{ top: 0, right: "25%" }}
         />
-        <div className="container"> */}
+        <div className="container">
           {/* <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
             For Enterprise
           </span> */}
-          {/* <h2 className="mil-mb-120">
-            Fortek Endüsriyel'in <span className="mil-accent">Temel</span>{" "}
-            Değerleri
+          <h2 className="mil-mb-120">
+            <span className="mil-accent">Kalite Yönetim</span> Belgelerimiz
           </h2>
           <div className="row">
             <div className="col-md-6 col-xl-4">
@@ -463,11 +460,16 @@ const About = () => {
                   />
                 </div>
                 <div className="mil-box-text">
-                  <h4 className="mil-mb-30">Kurumsal Kimlik</h4>
+                  <h4 className="mil-mb-30">ISO 9001:2015 </h4>
                   <p className="mil-box-text">
-                    Endüstrinin öncüsü olarak, yenilikçi klape sistemlerinin ve
-                    mühendislik çözümlerinin geliştiricisiyiz. Güvenilirlik ve
-                    sürdürülebilirliği her daim ön planda tutuyoruz.
+                    Kalite Yönetim Belgelerimizi indirmek için{" "}
+                    <a
+                      href="/img/pdf/IMG_20240301_0001.pdf"
+                      download
+                      className="mil-accent"
+                    >
+                      tıklayın
+                    </a>
                   </p>
                 </div>
               </div>
@@ -481,17 +483,21 @@ const About = () => {
                   />
                 </div>
                 <div className="mil-box-text">
-                  <h4 className="mil-mb-30">Derinlemesine Araştırma</h4>
+                  <h4 className="mil-mb-30">TS ENISO 12100:2011 CE</h4>
                   <p className="mil-box-text">
-                    Projelerimiz ve ürünlerimiz üzerindeki titiz çalışmalarımız,
-                    detaylara verdiğimiz önemle sektördeki farkımızı ortaya
-                    koyuyor. Mükemmelliğe olan tutkumuz, her yenilikte kendini
-                    gösteriyor
+                    Kalite Yönetim Belgelerimizi indirmek için{" "}
+                    <a
+                      href="/img/pdf/IMG_20240301_0001.pdf"
+                      download
+                      className="mil-accent"
+                    >
+                      tıklayın
+                    </a>
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-4">
+            {/* <div className="col-md-6 col-xl-4">
               <div className="mil-icon-box-2 mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <img
@@ -562,10 +568,10 @@ const About = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
-      </section> */}
+      </section>
       {/* features end */}
 
       <Divider />
@@ -577,10 +583,10 @@ const About = () => {
           style={{ top: 0, right: "25%" }}
         />
         <div className="container"> */}
-          {/* <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+      {/* <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
             For Enterprise
           </span> */}
-          {/* <h2 className="mil-mb-120">
+      {/* <h2 className="mil-mb-120">
             Fortek Endüstriyel ile{" "}
             <span className="mil-accent">Kalite ve Standartlar</span>{" "}
           </h2>
