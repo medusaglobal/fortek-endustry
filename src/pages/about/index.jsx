@@ -357,9 +357,9 @@ const About = () => {
               </div>
               <div className="col-xl-6">
                 <p className="mil-box-text mil-mb-30">
-                  Her bir damper sistemimiz, ISO 9001:2015 ve TS ENISO
-                  12100:2011 CE standartlarına uygun olarak en yüksek kalite
-                  yönetim sistemleriyle üretilir ve test edilir.
+                  Her bir damper sistemimiz, ISO 9001:2015, TS ENISO 12100:2011
+                  CE ve COC standartlarına uygun olarak en yüksek kalite yönetim
+                  sistemleriyle üretilir ve test edilir.
                 </p>
               </div>
             </div>
@@ -464,7 +464,7 @@ const About = () => {
                   <p className="mil-box-text">
                     Kalite Yönetim Belgelerimizi indirmek için{" "}
                     <a
-                      href="/img/pdf/IMG_20240301_0001.pdf"
+                      href="/img/pdf/IMG_20240301_0002.pdf"
                       download
                       className="mil-accent"
                     >
@@ -488,6 +488,29 @@ const About = () => {
                     Kalite Yönetim Belgelerimizi indirmek için{" "}
                     <a
                       href="/img/pdf/IMG_20240301_0001.pdf"
+                      download
+                      className="mil-accent"
+                    >
+                      tıklayın
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-xl-4">
+              <div className="mil-icon-box-2 mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
+                  <img
+                    src="img/icons/md/10.svg"
+                    alt="icon"
+                  />
+                </div>
+                <div className="mil-box-text">
+                  <h4 className="mil-mb-30">"Stack Damper" - COC</h4>
+                  <p className="mil-box-text">
+                    Kalite Yönetim Belgelerimizi indirmek için{" "}
+                    <a
+                      href="/img/pdf/IMG_20240220_0001.pdf"
                       download
                       className="mil-accent"
                     >
