@@ -63,28 +63,28 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                   <Link href="portfolio">Case Studies</Link>
                 </li> */}
                 <li>
-                  <Link href="about">Hakkımızda</Link>
+                  <Link href="/about">Hakkımızda</Link>
                 </li>
                 <li className="mil-has-children">
-                  <Link href={"/"}> Hizmetlerimiz</Link>
+                  <Link href={"/damper-uretimi"}> Hizmetlerimiz</Link>
                   <ul>
                     <li>
-                      <Link href="damper-uretimi">Damper Üretimi</Link>
+                      <Link href="/damper-uretimi">Damper Üretimi</Link>
                     </li>
                     <li>
-                      <Link href="damper-modernizasyon">
+                      <Link href="/damper-modernizasyon">
                         Damper Sistemlerinin Modernizasyonu ve Yönetimi
                       </Link>
                     </li>
                     <li>
-                      <Link href="proje-yonetim">
+                      <Link href="/proje-yonetim">
                         Proje Yönetimi ve Tedarik
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="mil-has-children">
-                  <Link href="#">Ürünlerimiz</Link>
+                  <Link href="/iki-yollu-damper">Ürünlerimiz</Link>
                   <ul>
                     <li>
                       <Link href="/iki-yollu-damper">2 Yollu Damper</Link>
@@ -104,10 +104,10 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                   </ul>
                 </li>
                 <li>
-                  <Link href="blog">Blog</Link>
+                  <Link href="/blog">Blog</Link>
                 </li>
                 <li>
-                  <Link href="contact">Bize Ulaşın</Link>
+                  <Link href="/contact">Bize Ulaşın</Link>
                 </li>
                 {/* <li className="mil-has-children">
                   <Link href="#.">Other</Link>
