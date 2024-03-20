@@ -2,7 +2,7 @@ import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import dynamic from "next/dynamic";
 const Solution1About = dynamic(
-  () => import("@/src/components/sliders/Solution1About copy 2"),
+  () => import("@/src/components/sliders/Solution1About copy 4"),
   {
     ssr: false,
   }

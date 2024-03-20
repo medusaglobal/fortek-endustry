@@ -6,7 +6,7 @@ const Publication = () => {
       {/* banner */}
       <div className="mil-banner-sm-2 mil-deep-bg">
         <img
-          src="img/blog/5.jpg"
+          src="uploads/mühendislik çözümleri_1000x667.png"
           className="mil-background-image"
           style={{ objectPosition: "center" }}
           alt="Publication cover"
@@ -97,14 +97,14 @@ const Publication = () => {
               <div className="row mil-mb-30">
                 <div className="col-xl-6 mil-mb-30">
                   <img
-                    src="img/blog/1.jpg"
+                    src="uploads/fortekin mühendislik çözümleri_ 1000x665.png"
                     alt="blog"
                     className="mil-post-image"
                   />
                 </div>
                 <div className="col-xl-6 mil-mb-30">
                   <img
-                    src="img/blog/3.jpg"
+                    src="uploads/mühendislik çözümleri1000x667.png"
                     alt="blog"
                     className="mil-post-image"
                   />
@@ -356,7 +356,7 @@ const Publication = () => {
                 >
                   <div className="mil-cover-frame">
                     <img
-                      src="img/blog/6.jpg"
+                      src="uploads/enerji verimliliği_1000x667.png"
                       alt="cover"
                     />
                   </div>
@@ -370,7 +370,7 @@ const Publication = () => {
                 >
                   <div className="mil-cover-frame">
                     <img
-                      src="img/blog/5.jpg"
+                      src="uploads/mühendislik çözümleri_1000x667.png"
                       alt="cover"
                     />
                   </div>
@@ -384,7 +384,7 @@ const Publication = () => {
                 >
                   <div className="mil-cover-frame">
                     <img
-                      src="img/blog/4.jpg"
+                      src="uploads/endüstriyel tesisler_1000x667.png"
                       alt="cover"
                     />
                   </div>

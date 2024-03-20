@@ -73,7 +73,7 @@ const Solution1About = () => {
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
                     <img
-                      src="img/faces/t3.png"
+                      src="uploads/giyotin_921x950.png"
                       alt="img"
                     />
                   </div>

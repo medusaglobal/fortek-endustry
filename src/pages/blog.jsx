@@ -19,7 +19,7 @@ const Blog = () => {
               >
                 <div className="mil-cover-frame">
                   <img
-                    src="img/blog/1.jpg"
+                    src="uploads/mühendislik çözümleri_1000x667.png"
                     alt="project"
                   />
                 </div>
@@ -51,7 +51,7 @@ const Blog = () => {
               >
                 <div className="mil-cover-frame">
                   <img
-                    src="img/blog/2.jpg"
+                    src="uploads/enerji verimliliği_1000x667.png"
                     alt="project"
                   />
                 </div>
@@ -82,7 +82,7 @@ const Blog = () => {
               >
                 <div className="mil-cover-frame">
                   <img
-                    src="img/blog/3.jpg"
+                    src="uploads/endüstriyel tesisler_1000x667.png"
                     alt="project"
                   />
                 </div>
@@ -143,7 +143,7 @@ const Blog = () => {
                 >
                   <div className="mil-cover-frame">
                     <img
-                      src="img/blog/6.jpg"
+                      src="uploads/enerji verimliliği_1000x667.png"
                       alt="cover"
                     />
                   </div>
@@ -160,7 +160,7 @@ const Blog = () => {
                 >
                   <div className="mil-cover-frame">
                     <img
-                      src="img/blog/5.jpg"
+                      src="uploads/mühendislik çözümleri_1000x667.png"
                       alt="cover"
                     />
                   </div>
@@ -177,7 +177,7 @@ const Blog = () => {
                 >
                   <div className="mil-cover-frame">
                     <img
-                      src="img/blog/4.jpg"
+                      src="uploads/endüstriyel tesisler_1000x667.png"
                       alt="cover"
                     />
                   </div>
