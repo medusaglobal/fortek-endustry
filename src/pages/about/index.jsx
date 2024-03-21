@@ -60,7 +60,7 @@ const About = () => {
                 <div className="mil-circle-bg" />
                 <div className="mil-image-frame">
                   <img
-                    src="img/faces/t3.png"
+                    src="uploads/biz kimiz.png"
                     alt="img"
                   />
                 </div>
@@ -277,7 +277,7 @@ const About = () => {
                 <div className="mil-circle-bg" />
                 <div className="mil-image-frame">
                   <img
-                    src="img/faces/t2.png"
+                    src="uploads/vizyon.png"
                     alt="img"
                   />
                 </div>
