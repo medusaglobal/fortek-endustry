@@ -134,7 +134,7 @@ const Solution1About = () => {
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
                     <img
-                      src="img/faces/t4.png"
+                      src="uploads/damper 2.png"
                       alt="img"
                     />
                   </div>
