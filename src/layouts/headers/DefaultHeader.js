@@ -1,9 +1,49 @@
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
   const [toggle, setToggle] = useState(false);
+  const [imageWidth, setImageWidth] = useState(400); // Default width
+  const [imageHeight, setImageHeight] = useState(400); // Default width
+
+  const updateImageWidth = () => {
+    // Get the screen width
+    const screenWidth = window.innerWidth;
+
+
+    
+
+    // Set different image widths based on screen size
+    if (screenWidth <= 768) {
+      setImageWidth(220); // Adjust the width for smaller screens
+      setImageHeight(110); // Adjust the width for smaller screens
+    } 
+
+    if (screenWidth < 1024 && screenWidth > 768) {
+      setImageWidth(280); // Adjust the width for smaller screens
+      setImageHeight(120); // Adjust the width for smaller screens
+    } else if (screenWidth > 1024) {
+      setImageWidth(400); // Default width for larger screens
+      setImageHeight(180); // Adjust the width for smaller screens
+    }
+
+  };
+
+  // Listen for window resize events to update image width dynamically
+  useEffect(() => {
+    // Call the function initially
+    updateImageWidth();
+
+    // Add event listener for window resize
+    window.addEventListener('resize', updateImageWidth);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', updateImageWidth);
+    };
+  }, []); // Empty dependency array to run only once on component mount
+
   return (
     <div
       className={`mil-top-position mil-fixed ${extarClass ? extarClass : ""}`}
@@ -21,8 +61,8 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
           >
            <Image 
            src={"/img/logo/061ec7a667-removebg-preview.png"}
-           width={400}
-           height={160}
+           width={imageWidth}
+           height={imageHeight}
            />
 
            
