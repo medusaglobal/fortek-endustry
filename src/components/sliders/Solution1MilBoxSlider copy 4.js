@@ -149,7 +149,7 @@ const Solution1MilBoxSlider = () => {
           style={{ overflow: "hidden" }}
         >
           <img
-            src="img/photo/14.jpg"
+            src="uploads/damper, enerji_1000x667.png"
             className="mil-background-image"
             style={{ objectPosition: "center" }}
             data-swiper-parallax-scale="1.1"
