@@ -199,9 +199,7 @@ const Service1 = () => {
         </div>
       </section> */}
       {/* next step end */}
-      {/* partners */}
-      <PartnersSection />
-      {/* partners end */}
+
       <div className="container">
         <div className="mil-divider" />
       </div>

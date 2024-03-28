@@ -124,7 +124,7 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                   </ul>
                 </li>
                 <li className="mil-has-children">
-                  <Link href="/iki-yollu-damper">Ürünlerimiz</Link>
+                  <Link href="/urunlerimiz">Ürünlerimiz</Link>
                   <ul>
                     <li>
                       <Link href="/iki-yollu-damper">2 Yollu Damper</Link>

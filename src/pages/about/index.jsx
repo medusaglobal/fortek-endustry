@@ -261,9 +261,7 @@ const About = () => {
       <div className="container">
         <div className="mil-divider" />
       </div>
-      {/* partners */}
-      <PartnersSection />
-      {/* partners end */}
+      
       {/* about */}
       <section className="mil-deep-bg mil-p-120-60">
         <div
