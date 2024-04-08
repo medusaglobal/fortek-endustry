@@ -19,7 +19,7 @@ const Careers = (props) => {
       <PageBanner pageName={"Sertifikalarımız"} pageTitle={"Sertifikalarımız"} />
 
  {/* counters */}
- <section className="mil-counters mil-deep-bg mil-p-120-90 mil-mt-60">
+ <section className="mil-counters mil-deep-bg mil-p-120-90">
         <div className="container">
           <div className="row">
             <div className="col-xl-3">
