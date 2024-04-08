@@ -17,23 +17,23 @@ const Careers = (props) => {
   return (
     <Layouts>
       <PageBanner pageName={"Sertifikalarımız"} pageTitle={"Sertifikalarımız"} />
+
+
       {/* careers */}
       <section className="mil-careers mil-p-120-50 mil-mt-60">
         <div className="container">
           <div className="col-xl-12">
-            <h3 className="mil-mb-30" style={{ textAlign: 'center' }}>
-              Fortek Belgesi <span className="mil-accent"> Sözümüzdür </span>
+            <h3 className="mil-mb-30">
+              <span className="mil-accent"> Kalite </span> Politikamız
             </h3>
-            <p style={{ textAlign: 'center' }}>
-              
-              Kaliteye mutlak bağlılık{" "}
-              <span className="mil-accent">Fortek'te temel bir değer ve zihniyettir</span>,
-              Damper sektöründeki uzun vadeli ve öncü kalite geliştirme çalışmalarımıza dayanarak, birinci sınıf kalite vaadimiz olan Fortek Sertifikasını ortaklarımıza sunmaktan gurur duyuyoruz. Kalite tanımımız, bitmiş ürünlerin kolayca ölçülebilir kalitesinin çok ötesine geçer. Mümkün olan en yüksek müşteri memnuniyetine ulaşmayı hedefleyerek yaptığımız her şeyde takip ettiğimiz sistematik ve organize çalışma modelidir. Fortek Sertifikası, duvardaki bir sertifika ya da belgedeki bir damga yerine, toplam kalitenin vaadidir. Bir numaralı hedefimiz memnun bir müşteridir. Hedefimiz sadece iyi bir ortak değil, en iyisi olmaktır.
+            <p>
+            Tüm dünyadaki projelerin ihtiyaç ve beklentilerine yönelik üst düzey hizmetimiz ile müşteri memnuniyetini ve güvenini sürdürmek, kalite sistemimizi<span className="mil-accent"> ISO 9001 :2015</span> Kalite Yönetim Sistemi doğrultusunda sürdürmek ve Başarımızın, personelimizin bilgi birikimi, tecrübesi, özverisi, ekip çalışması ve sürekli gelişimin bir sonucu olduğunu göz önünde bulundurarak, personel bilgi düzeyimizi ve ekip çalışması yetkinliklerimizi geliştirmek için şirket eğitim ve destek programları yürütmek, etik ve kaliteye önem veren tedarikçilerle iyi ilişkileri sürdürmektir. {" "}
             </p>
           </div>
         </div>
       </section>
-    
+      {/* careers end */}
+
 
       {/* counters */}
       <section className="mil-counters mil-deep-bg mil-p-120-90 mil-mt-60">
@@ -71,21 +71,6 @@ const Careers = (props) => {
         </div>
       </section>
       {/* counters end */}
-
-      {/* careers */}
-      <section className="mil-careers mil-p-120-50 mil-mt-60">
-        <div className="container">
-          <div className="col-xl-12">
-            <h3 className="mil-mb-30">
-              <span className="mil-accent"> Kalite </span> Politikamız
-            </h3>
-            <p>
-            Tüm dünyadaki projelerin ihtiyaç ve beklentilerine yönelik üst düzey hizmetimiz ile müşteri memnuniyetini ve güvenini sürdürmek, kalite sistemimizi<span className="mil-accent"> ISO 9001 :2015</span> Kalite Yönetim Sistemi doğrultusunda sürdürmek ve Başarımızın, personelimizin bilgi birikimi, tecrübesi, özverisi, ekip çalışması ve sürekli gelişimin bir sonucu olduğunu göz önünde bulundurarak, personel bilgi düzeyimizi ve ekip çalışması yetkinliklerimizi geliştirmek için şirket eğitim ve destek programları yürütmek, etik ve kaliteye önem veren tedarikçilerle iyi ilişkileri sürdürmektir. {" "}
-            </p>
-          </div>
-        </div>
-      </section>
-      {/* careers end */}
 
       {/* careers */}
       <section className="mil-careers mil-p-120-50 mil-mt-60">
