@@ -10,28 +10,28 @@ const Urunlerimiz = () => {
         <div className="container">
           <h3 className="mil-mb-5">
             <span className="mil-accent">
-            Temiz Akış Teknolojisi
+            Fortek 
             </span>{" "}
-            daha temiz bir yarın için inşa ediyor
+            endüstriyel olarak,
           </h3>
           <p className="mil-mb-120">
-          Akışı mevcut en ileri teknolojiyle kontrol etmek, Endüstriyel damper serisinin özüdür. Modern Temiz Teknolojinin tam kalbinde yer alan ve süreçlerin güvenilirliğini ve enerji verimliliğini sağlayan Endüstriyel damper serisi, çok sayıda endüstriyel uygulamayı kapsayan tüm şekil, boyut ve malzeme seçeneklerine sahiptir. Damperlerimiz lider aktüatör teknolojisi ve limit anahtarları, sızdırmazlık hava fanları ve elektrik kabinleri gibi çeşitli gelişmiş seçeneklerle donatılmış olarak gelir; bu da onları mevcut en çok yönlü ve eksiksiz Temiz Akış paketi haline getirir. YENİ! Size kolaylık sağlamak için, çevredeki kanal sistemlerini tek bir tam paket damper kanalı teslimatına dahil edebiliriz. Sammet kanal sistemleri ayrıca ayrı kanal teslimatı olarak da mevcuttur.
+           enerji santralleri veendüstriyel tesisler icin gaz akışını kontrol edecek ya da tamsızdırmaz şekilde kesecek çok çeşitli damperler imal etmekteyiz.Doğru damper ve aktüatör tipinin seçilmesi konusundadanışmanlık yaparak ve projenin başlangıcından itibaren enverimli tasarım seçimlerinin yapılmasını sağlamaktayız.Önceden dikkatli bir planlama yapılması, son müşterinin heruygulama için ideal ve en iyi çalışan damper sistemlerinialmasını sağlıyoruz.
           </p>
           <div className="row ">
             <div className="col-sm-6 col-lg-6">
               <Link href="iki-yollu-damper" className="mil-team-card mil-mb-60">
                 <div className="mil-image-frame mil-mb-30">
-                  <img src="uploads/iki yollu damperler_920x950.png" alt="Team member" />
+                  <img src="uploads/2YOLLUDAMPER.jpeg" alt="Team member" />
                   <div className="mil-team-circle" />
                 </div>
                 <h4 className="mil-mb-10">2 Yollu Damper</h4>
-                <p style={{color: 'black'}}>İnşaat ve madencilik sektörlerindeki ağır yük taşımacılığında devrim yaratan çift yönlü damperlerimiz, dayanıklılık ve verimlilikte yeni standartlar belirliyor. İhtiyacınız olan güvenilirlik ve performansı sunuyoruz.</p>
+                <p style={{color: 'black'}}>Fortek 2 yollu klapeler, basit ve uygun maliyetli bir kontrol ve sızdırmazlık sağlar. Uygulamanız için gereken doğru sızdırmazlık verimliliğini sağlamak için sızdırmazlık hava fanı dahil olmak üzere çeşitli sızdırmazlık düzenlemeleri kullanılabilir.</p>
               </Link>
             </div>
             <div className="col-sm-6 col-lg-6">
               <Link href="uc-yollu-damper" className="mil-team-card mil-mb-60">
                 <div className="mil-image-frame mil-mb-30">
-                  <img src="uploads/üç yollu_921x950.png" alt="Team member" />
+                  <img src="uploads/3YOLLUDAMPER.jpeg" alt="Team member" />
                   <div className="mil-team-circle" />
                 </div>
                 <h4 className="mil-mb-10">3 Yollu Damper</h4>
@@ -44,7 +44,7 @@ const Urunlerimiz = () => {
                 className="mil-team-card mil-mb-60 mil-mb-30"
               >
                 <div className="mil-image-frame mil-mb-30">
-                  <img src="uploads/giyotin_921x950.png" alt="Team member" />
+                  <img src="uploads/GİYOTİNDAMPER.jpeg" alt="Team member" />
                   <div className="mil-team-circle" />
                 </div>
                 <h4 className="mil-mb-10">Giyotin Damper</h4>
@@ -54,7 +54,7 @@ const Urunlerimiz = () => {
             <div className="col-sm-6 col-lg-6">
               <Link href="cok-kanatli-damper" className="mil-team-card mil-mb-60">
                 <div className="mil-image-frame mil-mb-30">
-                  <img src="uploads/çok kanatlı_921x950.png" alt="Team member" />
+                  <img src="uploads/ÇOKKANATLIDAMPER.jpeg" alt="Team member" />
                   <div className="mil-team-circle" />
                 </div>
                 <h4 className="mil-mb-10">Çok Kanatlı Damper</h4>

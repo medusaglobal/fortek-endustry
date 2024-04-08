@@ -73,7 +73,7 @@ const Solution1About = () => {
                   <div className="mil-circle-bg" />
                   <div className="mil-image-frame">
                     <img
-                      src="uploads/iki yollu damperler_920x950.png"
+                      src="uploads/2YOLLUDAMPER.jpeg"
                       alt="img"
                     />
                   </div>
