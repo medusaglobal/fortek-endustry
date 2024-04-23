@@ -102,26 +102,11 @@ const DefaultHeader = ({ transparent, headerTop, extarClass }) => {
                 {/* <li>
                   <Link href="portfolio">Case Studies</Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <Link href="/about">Hakkımızda</Link>
-                </li>
+                </li> */}
                 <li className="mil-has-children">
-                  <Link href={"/damper-uretimi"}> Hizmetlerimiz</Link>
-                  <ul>
-                    <li>
-                      <Link href="/damper-uretimi">Damper Üretimi</Link>
-                    </li>
-                    <li>
-                      <Link href="/damper-modernizasyon">
-                        Damper Sistemlerinin Modernizasyonu ve Yönetimi
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/proje-yonetim">
-                        Proje Yönetimi ve Tedarik
-                      </Link>
-                    </li>
-                  </ul>
+                  <Link href={"/hizmetlerimiz"}> Hizmetlerimiz</Link>
                 </li>
                 <li className="mil-has-children">
                   <Link href="/urunlerimiz">Ürünlerimiz</Link>
